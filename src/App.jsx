@@ -253,11 +253,11 @@ function Sensor() {
 
                    <div className="prod-fotos">
           <div className="prod-foto">
-            <img src="foto-circuito.jpeg" alt="Montagem do sensor"/>
+            <img src="/foto-circuito.jpeg" alt="Montagem do sensor"/>
             <p>Montagem na protoboard</p>
           </div>
           <div className="prod-foto">
-            <img src="foto-circuito2.jpeg" alt="Montagem do sensor"/>
+            <img src="/foto-circuito2.jpeg" alt="Montagem do sensor"/>
             <p>Soldagem na placa</p>
           </div>
         </div>
