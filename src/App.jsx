@@ -415,7 +415,7 @@ function Producao() {
     {n:'02', ic:'💧', t:'Clarificação',    itens:['Recircular mosto','Até ficar limpo','Lavar os grãos','Extrair açúcar'],   tag:'Mosto limpo',         c:'ciano'},
     {n:'03', ic:'🔥', t:'Fervura (60min)', itens:['Lúpulo p/ amargor','Últimos 10min: aroma','Resfriar','Transferir'],       tag:'Amargor e aroma',     c:'rosa'},
     {n:'04', ic:'🌡️', t:'Fermentação',     itens:['~10 dias','Temp: 18°C','Diacetil rest','Maturar em frio'],               tag:'🌡️ Sensor: 18°C',     c:'ciano'},
-    {n:'05', ic:'🍺', t:'Envase',          itens:['5ml açúcar','Gás natural','Temp. ambiente','~10 dias'],                  tag:'Carbonatação natural', c:'laranja'},
+    {n:'05', ic:'🍺', t:'Envase',          itens:['5g açúcar','Gás natural','Temp. ambiente','~10 dias'],                  tag:'Carbonatação natural', c:'laranja'},
   ]
   return (
     <section className={`secao ${vis ? 'aparece' : ''}`} id="producao" ref={ref}>
